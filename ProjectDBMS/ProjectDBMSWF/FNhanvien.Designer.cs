@@ -34,14 +34,14 @@
             this.panelMenu = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.lbl_Ten = new System.Windows.Forms.Label();
             this.btnDangxuat = new Guna.UI2.WinForms.Guna2Button();
+            this.btnChamcong = new Guna.UI2.WinForms.Guna2Button();
             this.btnDoanhthu = new Guna.UI2.WinForms.Guna2Button();
+            this.btnXuly = new Guna.UI2.WinForms.Guna2Button();
             this.btnLichsu = new Guna.UI2.WinForms.Guna2Button();
             this.btnLinhkien = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Separator3 = new Guna.UI2.WinForms.Guna2Separator();
             this.guna2Separator4 = new Guna.UI2.WinForms.Guna2Separator();
-            this.userID_lbl = new System.Windows.Forms.Label();
-            this.btnXuly = new Guna.UI2.WinForms.Guna2Button();
-            this.btnChamcong = new Guna.UI2.WinForms.Guna2Button();
+            this.lbl_maNV = new System.Windows.Forms.Label();
             this.ptb_avatar = new Guna.UI2.WinForms.Guna2PictureBox();
             this.btnClose = new Guna.UI2.WinForms.Guna2ImageButton();
             this.panelMenu.SuspendLayout();
@@ -71,7 +71,7 @@
             this.panelMenu.Controls.Add(this.btnLinhkien);
             this.panelMenu.Controls.Add(this.guna2Separator3);
             this.panelMenu.Controls.Add(this.guna2Separator4);
-            this.panelMenu.Controls.Add(this.userID_lbl);
+            this.panelMenu.Controls.Add(this.lbl_maNV);
             this.panelMenu.Controls.Add(this.ptb_avatar);
             this.panelMenu.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(201)))), ((int)(((byte)(234)))));
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
@@ -85,11 +85,11 @@
             // 
             this.lbl_Ten.AutoSize = true;
             this.lbl_Ten.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(201)))), ((int)(((byte)(234)))));
-            this.lbl_Ten.Font = new System.Drawing.Font("UTM Alberta Heavy", 11.25F);
+            this.lbl_Ten.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.lbl_Ten.Location = new System.Drawing.Point(81, 27);
             this.lbl_Ten.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_Ten.Name = "lbl_Ten";
-            this.lbl_Ten.Size = new System.Drawing.Size(107, 20);
+            this.lbl_Ten.Size = new System.Drawing.Size(104, 18);
             this.lbl_Ten.TabIndex = 27;
             this.lbl_Ten.Text = "Nguyễn Văn A ";
             // 
@@ -102,7 +102,7 @@
             this.btnDangxuat.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnDangxuat.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnDangxuat.FillColor = System.Drawing.Color.White;
-            this.btnDangxuat.Font = new System.Drawing.Font("UTM Alberta Heavy", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDangxuat.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDangxuat.ForeColor = System.Drawing.Color.Black;
             this.btnDangxuat.Location = new System.Drawing.Point(14, 635);
             this.btnDangxuat.Name = "btnDangxuat";
@@ -112,6 +112,33 @@
             this.btnDangxuat.TabIndex = 10;
             this.btnDangxuat.Text = "Đăng xuất";
             this.btnDangxuat.UseTransparentBackground = true;
+            // 
+            // btnChamcong
+            // 
+            this.btnChamcong.Animated = true;
+            this.btnChamcong.BackColor = System.Drawing.Color.Transparent;
+            this.btnChamcong.BorderRadius = 20;
+            this.btnChamcong.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.btnChamcong.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+            this.btnChamcong.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnChamcong.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnChamcong.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnChamcong.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnChamcong.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnChamcong.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnChamcong.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(201)))), ((int)(((byte)(234)))));
+            this.btnChamcong.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.btnChamcong.ForeColor = System.Drawing.Color.Black;
+            this.btnChamcong.Image = global::ProjectDBMSWF.Properties.Resources.calendar;
+            this.btnChamcong.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnChamcong.Location = new System.Drawing.Point(14, 397);
+            this.btnChamcong.Name = "btnChamcong";
+            this.btnChamcong.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+            this.btnChamcong.Size = new System.Drawing.Size(200, 53);
+            this.btnChamcong.TabIndex = 22;
+            this.btnChamcong.Text = "Chấm Công";
+            this.btnChamcong.UseTransparentBackground = true;
+            this.btnChamcong.Click += new System.EventHandler(this.btnChamcong_Click);
             // 
             // btnDoanhthu
             // 
@@ -128,7 +155,7 @@
             this.btnDoanhthu.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnDoanhthu.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnDoanhthu.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(201)))), ((int)(((byte)(234)))));
-            this.btnDoanhthu.Font = new System.Drawing.Font("UTM Alberta Heavy", 9F);
+            this.btnDoanhthu.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.btnDoanhthu.ForeColor = System.Drawing.Color.Black;
             this.btnDoanhthu.Location = new System.Drawing.Point(14, 487);
             this.btnDoanhthu.Name = "btnDoanhthu";
@@ -138,6 +165,32 @@
             this.btnDoanhthu.Text = "Doanh Thu Ca";
             this.btnDoanhthu.UseTransparentBackground = true;
             this.btnDoanhthu.Click += new System.EventHandler(this.btnDoanhthu_Click);
+            // 
+            // btnXuly
+            // 
+            this.btnXuly.Animated = true;
+            this.btnXuly.BackColor = System.Drawing.Color.Transparent;
+            this.btnXuly.BorderRadius = 20;
+            this.btnXuly.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.btnXuly.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+            this.btnXuly.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnXuly.CustomImages.Image = global::ProjectDBMSWF.Properties.Resources.shopping_bag;
+            this.btnXuly.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnXuly.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnXuly.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnXuly.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnXuly.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnXuly.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(201)))), ((int)(((byte)(234)))));
+            this.btnXuly.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.btnXuly.ForeColor = System.Drawing.Color.Black;
+            this.btnXuly.Location = new System.Drawing.Point(14, 222);
+            this.btnXuly.Name = "btnXuly";
+            this.btnXuly.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
+            this.btnXuly.Size = new System.Drawing.Size(200, 53);
+            this.btnXuly.TabIndex = 24;
+            this.btnXuly.Text = "Xử Lý Đơn Hàng";
+            this.btnXuly.UseTransparentBackground = true;
+            this.btnXuly.Click += new System.EventHandler(this.btnXuly_Click);
             // 
             // btnLichsu
             // 
@@ -154,7 +207,7 @@
             this.btnLichsu.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnLichsu.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnLichsu.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(201)))), ((int)(((byte)(234)))));
-            this.btnLichsu.Font = new System.Drawing.Font("UTM Alberta Heavy", 9F);
+            this.btnLichsu.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.btnLichsu.ForeColor = System.Drawing.Color.Black;
             this.btnLichsu.Location = new System.Drawing.Point(14, 313);
             this.btnLichsu.Name = "btnLichsu";
@@ -181,7 +234,7 @@
             this.btnLinhkien.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnLinhkien.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnLinhkien.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(201)))), ((int)(((byte)(234)))));
-            this.btnLinhkien.Font = new System.Drawing.Font("UTM Alberta Heavy", 9F);
+            this.btnLinhkien.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.btnLinhkien.ForeColor = System.Drawing.Color.Black;
             this.btnLinhkien.Location = new System.Drawing.Point(14, 135);
             this.btnLinhkien.Name = "btnLinhkien";
@@ -210,69 +263,16 @@
             this.guna2Separator4.Size = new System.Drawing.Size(200, 10);
             this.guna2Separator4.TabIndex = 15;
             // 
-            // userID_lbl
+            // lbl_maNV
             // 
-            this.userID_lbl.AutoSize = true;
-            this.userID_lbl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(201)))), ((int)(((byte)(234)))));
-            this.userID_lbl.Font = new System.Drawing.Font("UTM Alberta Heavy", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.userID_lbl.Location = new System.Drawing.Point(81, 55);
-            this.userID_lbl.Name = "userID_lbl";
-            this.userID_lbl.Size = new System.Drawing.Size(24, 20);
-            this.userID_lbl.TabIndex = 13;
-            this.userID_lbl.Text = "ID";
-            // 
-            // btnXuly
-            // 
-            this.btnXuly.Animated = true;
-            this.btnXuly.BackColor = System.Drawing.Color.Transparent;
-            this.btnXuly.BorderRadius = 20;
-            this.btnXuly.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.btnXuly.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
-            this.btnXuly.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnXuly.CustomImages.Image = global::ProjectDBMSWF.Properties.Resources.shopping_bag;
-            this.btnXuly.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnXuly.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnXuly.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnXuly.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnXuly.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnXuly.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(201)))), ((int)(((byte)(234)))));
-            this.btnXuly.Font = new System.Drawing.Font("UTM Alberta Heavy", 9F);
-            this.btnXuly.ForeColor = System.Drawing.Color.Black;
-            this.btnXuly.Location = new System.Drawing.Point(14, 222);
-            this.btnXuly.Name = "btnXuly";
-            this.btnXuly.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
-            this.btnXuly.Size = new System.Drawing.Size(200, 53);
-            this.btnXuly.TabIndex = 24;
-            this.btnXuly.Text = "Xử Lý Đơn Hàng";
-            this.btnXuly.UseTransparentBackground = true;
-            this.btnXuly.Click += new System.EventHandler(this.btnXuly_Click);
-            // 
-            // btnChamcong
-            // 
-            this.btnChamcong.Animated = true;
-            this.btnChamcong.BackColor = System.Drawing.Color.Transparent;
-            this.btnChamcong.BorderRadius = 20;
-            this.btnChamcong.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.btnChamcong.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
-            this.btnChamcong.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnChamcong.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnChamcong.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnChamcong.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnChamcong.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnChamcong.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnChamcong.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(201)))), ((int)(((byte)(234)))));
-            this.btnChamcong.Font = new System.Drawing.Font("UTM Alberta Heavy", 9F);
-            this.btnChamcong.ForeColor = System.Drawing.Color.Black;
-            this.btnChamcong.Image = global::ProjectDBMSWF.Properties.Resources.calendar;
-            this.btnChamcong.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnChamcong.Location = new System.Drawing.Point(14, 397);
-            this.btnChamcong.Name = "btnChamcong";
-            this.btnChamcong.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
-            this.btnChamcong.Size = new System.Drawing.Size(200, 53);
-            this.btnChamcong.TabIndex = 22;
-            this.btnChamcong.Text = "Chấm Công";
-            this.btnChamcong.UseTransparentBackground = true;
-            this.btnChamcong.Click += new System.EventHandler(this.btnChamcong_Click);
+            this.lbl_maNV.AutoSize = true;
+            this.lbl_maNV.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(201)))), ((int)(((byte)(234)))));
+            this.lbl_maNV.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_maNV.Location = new System.Drawing.Point(81, 55);
+            this.lbl_maNV.Name = "lbl_maNV";
+            this.lbl_maNV.Size = new System.Drawing.Size(22, 18);
+            this.lbl_maNV.TabIndex = 13;
+            this.lbl_maNV.Text = "ID";
             // 
             // ptb_avatar
             // 
@@ -338,7 +338,7 @@
         private Guna.UI2.WinForms.Guna2Button btnLinhkien;
         private Guna.UI2.WinForms.Guna2Separator guna2Separator3;
         private Guna.UI2.WinForms.Guna2Separator guna2Separator4;
-        public System.Windows.Forms.Label userID_lbl;
+        public System.Windows.Forms.Label lbl_maNV;
         private Guna.UI2.WinForms.Guna2PictureBox ptb_avatar;
         private Guna.UI2.WinForms.Guna2ImageButton btnClose;
         private Guna.UI2.WinForms.Guna2Button btnXuly;

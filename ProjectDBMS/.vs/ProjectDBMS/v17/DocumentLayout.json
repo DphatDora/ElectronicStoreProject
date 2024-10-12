@@ -1,77 +1,97 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\",
+  "WorkspaceRootPath": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\projectdbmswf\\fdoanhthuca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|solutionrelative:projectdbmswf\\fdoanhthuca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\projectdbmswf\\fdoanhthu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|solutionrelative:projectdbmswf\\fdoanhthu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|d:\\hcmute\\ute3\\hocky1\\dbms\\projectfolder\\projectdbsm\\projectdbmswf\\fxulydonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|solutionrelative:projectdbmswf\\fxulydonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\projectdbmswf\\flichsudonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\projectdbmswf\\flichsudonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|solutionrelative:projectdbmswf\\flichsudonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\projectdbmswf\\flinhkien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|solutionrelative:projectdbmswf\\flinhkien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|d:\\hcmute\\ute3\\hocky1\\dbms\\projectfolder\\projectdbms\\projectdbmswf\\flichsudonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|solutionrelative:projectdbmswf\\flichsudonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\projectdbmswf\\uclinhkien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|solutionrelative:projectdbmswf\\uclinhkien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\projectdbmswf\\nhanviendao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|solutionrelative:projectdbmswf\\nhanviendao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\projectdbmswf\\flinhkien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\projectdbmswf\\flinhkien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|solutionrelative:projectdbmswf\\flinhkien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\projectdbmswf\\fquanlynhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|solutionrelative:projectdbmswf\\fquanlynhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\projectdbmswf\\flinhkien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|solutionrelative:projectdbmswf\\flinhkien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\projectdbmswf\\fnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|solutionrelative:projectdbmswf\\fnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\projectdbmswf\\fdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|solutionrelative:projectdbmswf\\fdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\projectdbmswf\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|solutionrelative:projectdbmswf\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\projectdbmswf\\fdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|solutionrelative:projectdbmswf\\fdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\projectdbmswf\\fquanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|solutionrelative:projectdbmswf\\fquanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\projectdbmswf\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|solutionrelative:projectdbmswf\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\projectdbmswf\\fquanlykho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|solutionrelative:projectdbmswf\\fquanlykho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\projectdbmswf\\fnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\projectdbmswf\\fnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|solutionrelative:projectdbmswf\\fnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\projectdbmswf\\fquanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\projectdbmswf\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|solutionrelative:projectdbmswf\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|d:\\hcmute\\ute3\\hocky1\\dbms\\projectfolder\\projectdbms\\projectdbmswf\\fxulydonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|solutionrelative:projectdbmswf\\fxulydonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\projectdbmswf\\fxulydonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|solutionrelative:projectdbmswf\\fxulydonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\projectdbmswf\\fnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|solutionrelative:projectdbmswf\\fnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\projectdbmswf\\fquanlynhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|solutionrelative:projectdbmswf\\fquanlynhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\projectdbmswf\\uclinhkien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|solutionrelative:projectdbmswf\\uclinhkien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\projectdbmswf\\uclinhkien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|solutionrelative:projectdbmswf\\uclinhkien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\projectdbmswf\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|solutionrelative:projectdbmswf\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\projectdbmswf\\fdoanhthuca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|solutionrelative:projectdbmswf\\fdoanhthuca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\projectdbmswf\\fdoanhthu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|solutionrelative:projectdbmswf\\fdoanhthu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\projectdbmswf\\fdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|solutionrelative:projectdbmswf\\fdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\projectdbmswf\\fdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|solutionrelative:projectdbmswf\\fdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\projectdbmswf\\fquanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|solutionrelative:projectdbmswf\\fquanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\projectdbmswf\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|solutionrelative:projectdbmswf\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\projectdbmswf\\fquanlykho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|solutionrelative:projectdbmswf\\fquanlykho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\projectdbmswf\\fquanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|solutionrelative:projectdbmswf\\fquanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\projectdbmswf\\fchamcong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\projectdbmswf\\fchamcong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FD2C21DD-FBD1-4FA4-9174-E7DA15D987A6}|ProjectDBMSWF\\ProjectDBMSWF.csproj|solutionrelative:projectdbmswf\\fchamcong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -82,55 +102,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FLichSuDonHang.cs [Design]",
+              "DocumentMoniker": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\FLichSuDonHang.cs",
+              "RelativeDocumentMoniker": "ProjectDBMSWF\\FLichSuDonHang.cs",
+              "ToolTip": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\FLichSuDonHang.cs [Design]",
+              "RelativeToolTip": "ProjectDBMSWF\\FLichSuDonHang.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T13:20:16.229Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NhanVienDAO.cs",
+              "DocumentMoniker": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\NhanVienDAO.cs",
+              "RelativeDocumentMoniker": "ProjectDBMSWF\\NhanVienDAO.cs",
+              "ToolTip": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\NhanVienDAO.cs",
+              "RelativeToolTip": "ProjectDBMSWF\\NhanVienDAO.cs",
+              "ViewState": "AQIAAIcAAAAAAAAAAAAAAKIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T03:33:26.714Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FLichSuDonHang.cs [Design]",
-              "DocumentMoniker": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\ProjectDBMSWF\\FLichSuDonHang.cs",
+              "DocumentIndex": 1,
+              "Title": "FLichSuDonHang.cs",
+              "DocumentMoniker": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\FLichSuDonHang.cs",
               "RelativeDocumentMoniker": "ProjectDBMSWF\\FLichSuDonHang.cs",
-              "ToolTip": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\ProjectDBMSWF\\FLichSuDonHang.cs [Design]",
-              "RelativeToolTip": "ProjectDBMSWF\\FLichSuDonHang.cs [Design]",
+              "ToolTip": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\FLichSuDonHang.cs",
+              "RelativeToolTip": "ProjectDBMSWF\\FLichSuDonHang.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAnwDkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T13:20:16.229Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-12T13:26:49.242Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FDoanhThuCa.cs [Design]",
-              "DocumentMoniker": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\ProjectDBMSWF\\FDoanhThuCa.cs",
-              "RelativeDocumentMoniker": "ProjectDBMSWF\\FDoanhThuCa.cs",
-              "ToolTip": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\ProjectDBMSWF\\FDoanhThuCa.cs [Design]",
-              "RelativeToolTip": "ProjectDBMSWF\\FDoanhThuCa.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T13:20:16.233Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FLinhKien.cs [Design]",
-              "DocumentMoniker": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\ProjectDBMSWF\\FLinhKien.cs",
+              "DocumentIndex": 3,
+              "Title": "FLinhKien.cs",
+              "DocumentMoniker": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\FLinhKien.cs",
               "RelativeDocumentMoniker": "ProjectDBMSWF\\FLinhKien.cs",
-              "ToolTip": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\ProjectDBMSWF\\FLinhKien.cs [Design]",
-              "RelativeToolTip": "ProjectDBMSWF\\FLinhKien.cs [Design]",
+              "ToolTip": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\FLinhKien.cs",
+              "RelativeToolTip": "ProjectDBMSWF\\FLinhKien.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAvwC0AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T13:20:16.235Z",
+              "WhenOpened": "2024-10-05T09:06:56.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FNhanvien.cs [Design]",
+              "DocumentMoniker": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\FNhanvien.cs",
+              "RelativeDocumentMoniker": "ProjectDBMSWF\\FNhanvien.cs",
+              "ToolTip": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\FNhanvien.cs [Design]",
+              "RelativeToolTip": "ProjectDBMSWF\\FNhanvien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T13:20:16.239Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "FNhanvien.cs",
+              "DocumentMoniker": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\FNhanvien.cs",
+              "RelativeDocumentMoniker": "ProjectDBMSWF\\FNhanvien.cs",
+              "ToolTip": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\FNhanvien.cs",
+              "RelativeToolTip": "ProjectDBMSWF\\FNhanvien.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T13:20:16.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "FXulydonhang.cs [Design]",
-              "DocumentMoniker": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\ProjectDBMSWF\\FXulydonhang.cs",
+              "DocumentMoniker": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\FXulydonhang.cs",
               "RelativeDocumentMoniker": "ProjectDBMSWF\\FXulydonhang.cs",
-              "ToolTip": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\ProjectDBMSWF\\FXulydonhang.cs [Design]",
+              "ToolTip": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\FXulydonhang.cs [Design]",
               "RelativeToolTip": "ProjectDBMSWF\\FXulydonhang.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-03T13:20:16.242Z",
@@ -138,92 +200,128 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UClinhkien.cs [Design]",
-              "DocumentMoniker": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\ProjectDBMSWF\\UClinhkien.cs",
-              "RelativeDocumentMoniker": "ProjectDBMSWF\\UClinhkien.cs",
-              "ToolTip": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\ProjectDBMSWF\\UClinhkien.cs [Design]",
-              "RelativeToolTip": "ProjectDBMSWF\\UClinhkien.cs [Design]",
+              "DocumentIndex": 8,
+              "Title": "FXulydonhang.cs",
+              "DocumentMoniker": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\FXulydonhang.cs",
+              "RelativeDocumentMoniker": "ProjectDBMSWF\\FXulydonhang.cs",
+              "ToolTip": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\FXulydonhang.cs",
+              "RelativeToolTip": "ProjectDBMSWF\\FXulydonhang.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAUwEcAAABpAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T08:49:39.518Z"
+              "WhenOpened": "2024-10-12T08:45:48.057Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FDangnhap.cs [Design]",
-              "DocumentMoniker": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\ProjectDBMSWF\\FDangnhap.cs",
-              "RelativeDocumentMoniker": "ProjectDBMSWF\\FDangnhap.cs",
-              "ToolTip": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\ProjectDBMSWF\\FDangnhap.cs [Design]",
-              "RelativeToolTip": "ProjectDBMSWF\\FDangnhap.cs [Design]",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\Program.cs",
+              "RelativeDocumentMoniker": "ProjectDBMSWF\\Program.cs",
+              "ToolTip": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\Program.cs",
+              "RelativeToolTip": "ProjectDBMSWF\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T13:20:16.234Z"
+              "WhenOpened": "2024-10-03T13:20:16.244Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FDoanhthu.cs [Design]",
-              "DocumentMoniker": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\ProjectDBMSWF\\FDoanhthu.cs",
-              "RelativeDocumentMoniker": "ProjectDBMSWF\\FDoanhthu.cs",
-              "ToolTip": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\ProjectDBMSWF\\FDoanhthu.cs [Design]",
-              "RelativeToolTip": "ProjectDBMSWF\\FDoanhthu.cs [Design]",
+              "DocumentIndex": 4,
+              "Title": "FLinhKien.cs [Design]",
+              "DocumentMoniker": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\FLinhKien.cs",
+              "RelativeDocumentMoniker": "ProjectDBMSWF\\FLinhKien.cs",
+              "ToolTip": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\FLinhKien.cs [Design]",
+              "RelativeToolTip": "ProjectDBMSWF\\FLinhKien.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T13:20:16.234Z",
+              "WhenOpened": "2024-10-03T13:20:16.235Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "FQuanlynhanvien.cs [Design]",
-              "DocumentMoniker": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\ProjectDBMSWF\\FQuanlynhanvien.cs",
+              "DocumentMoniker": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\FQuanlynhanvien.cs",
               "RelativeDocumentMoniker": "ProjectDBMSWF\\FQuanlynhanvien.cs",
-              "ToolTip": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\ProjectDBMSWF\\FQuanlynhanvien.cs [Design]",
+              "ToolTip": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\FQuanlynhanvien.cs [Design]",
               "RelativeToolTip": "ProjectDBMSWF\\FQuanlynhanvien.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-03T13:20:16.241Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "FNhanvien.cs [Design]",
-              "DocumentMoniker": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\ProjectDBMSWF\\FNhanvien.cs",
-              "RelativeDocumentMoniker": "ProjectDBMSWF\\FNhanvien.cs",
-              "ToolTip": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\ProjectDBMSWF\\FNhanvien.cs [Design]",
-              "RelativeToolTip": "ProjectDBMSWF\\FNhanvien.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T13:20:16.239Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FLinhKien.cs",
-              "DocumentMoniker": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\ProjectDBMSWF\\FLinhKien.cs",
-              "RelativeDocumentMoniker": "ProjectDBMSWF\\FLinhKien.cs",
-              "ToolTip": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\ProjectDBMSWF\\FLinhKien.cs",
-              "RelativeToolTip": "ProjectDBMSWF\\FLinhKien.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAkwCEAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T09:06:56.423Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\ProjectDBMSWF\\Program.cs",
-              "RelativeDocumentMoniker": "ProjectDBMSWF\\Program.cs",
-              "ToolTip": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\ProjectDBMSWF\\Program.cs",
-              "RelativeToolTip": "ProjectDBMSWF\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T13:20:16.244Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "FDangnhap.cs",
-              "DocumentMoniker": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\ProjectDBMSWF\\FDangnhap.cs",
+              "Title": "UClinhkien.cs",
+              "DocumentMoniker": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\UClinhkien.cs",
+              "RelativeDocumentMoniker": "ProjectDBMSWF\\UClinhkien.cs",
+              "ToolTip": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\UClinhkien.cs",
+              "RelativeToolTip": "ProjectDBMSWF\\UClinhkien.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAqwBMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T03:02:34.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UClinhkien.cs [Design]",
+              "DocumentMoniker": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\UClinhkien.cs",
+              "RelativeDocumentMoniker": "ProjectDBMSWF\\UClinhkien.cs",
+              "ToolTip": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\UClinhkien.cs [Design]",
+              "RelativeToolTip": "ProjectDBMSWF\\UClinhkien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T08:49:39.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\OrderItem.cs",
+              "RelativeDocumentMoniker": "ProjectDBMSWF\\OrderItem.cs",
+              "ToolTip": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\OrderItem.cs",
+              "RelativeToolTip": "ProjectDBMSWF\\OrderItem.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAADwvxIAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T08:16:26.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FDoanhThuCa.cs [Design]",
+              "DocumentMoniker": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\FDoanhThuCa.cs",
+              "RelativeDocumentMoniker": "ProjectDBMSWF\\FDoanhThuCa.cs",
+              "ToolTip": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\FDoanhThuCa.cs [Design]",
+              "RelativeToolTip": "ProjectDBMSWF\\FDoanhThuCa.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T13:20:16.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FDoanhthu.cs [Design]",
+              "DocumentMoniker": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\FDoanhthu.cs",
+              "RelativeDocumentMoniker": "ProjectDBMSWF\\FDoanhthu.cs",
+              "ToolTip": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\FDoanhthu.cs [Design]",
+              "RelativeToolTip": "ProjectDBMSWF\\FDoanhthu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T13:20:16.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FDangnhap.cs [Design]",
+              "DocumentMoniker": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\FDangnhap.cs",
               "RelativeDocumentMoniker": "ProjectDBMSWF\\FDangnhap.cs",
-              "ToolTip": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\ProjectDBMSWF\\FDangnhap.cs",
+              "ToolTip": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\FDangnhap.cs [Design]",
+              "RelativeToolTip": "ProjectDBMSWF\\FDangnhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T13:20:16.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FDangnhap.cs",
+              "DocumentMoniker": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\FDangnhap.cs",
+              "RelativeDocumentMoniker": "ProjectDBMSWF\\FDangnhap.cs",
+              "ToolTip": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\FDangnhap.cs",
               "RelativeToolTip": "ProjectDBMSWF\\FDangnhap.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -231,66 +329,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\ProjectDBMSWF\\Form1.cs",
+              "DocumentMoniker": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\Form1.cs",
               "RelativeDocumentMoniker": "ProjectDBMSWF\\Form1.cs",
-              "ToolTip": "C:\\Users\\nmtu\\OneDrive\\DBMS\\CODE\\ProjectDBMS\\ProjectDBMSWF\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "ToolTip": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\Form1.cs [Design]",
+              "RelativeToolTip": "ProjectDBMSWF\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-03T13:20:16.237Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "FQuanly.cs [Design]",
-              "DocumentMoniker": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\ProjectDBMSWF\\FQuanly.cs",
+              "DocumentMoniker": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\FQuanly.cs",
               "RelativeDocumentMoniker": "ProjectDBMSWF\\FQuanly.cs",
-              "ToolTip": "C:\\Users\\nmtu\\OneDrive\\DBMS\\CODE\\ProjectDBMS\\ProjectDBMSWF\\FQuanly.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "ToolTip": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\FQuanly.cs [Design]",
+              "RelativeToolTip": "ProjectDBMSWF\\FQuanly.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-03T13:20:16.236Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "FQuanlykho.cs [Design]",
-              "DocumentMoniker": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\ProjectDBMSWF\\FQuanlykho.cs",
+              "DocumentMoniker": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\FQuanlykho.cs",
               "RelativeDocumentMoniker": "ProjectDBMSWF\\FQuanlykho.cs",
-              "ToolTip": "C:\\Users\\nmtu\\OneDrive\\DBMS\\CODE\\ProjectDBMS\\ProjectDBMSWF\\FQuanlykho.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "ToolTip": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\FQuanlykho.cs [Design]",
+              "RelativeToolTip": "ProjectDBMSWF\\FQuanlykho.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-03T13:20:16.238Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "FNhanvien.cs",
-              "DocumentMoniker": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\ProjectDBMSWF\\FNhanvien.cs",
-              "RelativeDocumentMoniker": "ProjectDBMSWF\\FNhanvien.cs",
-              "ToolTip": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\ProjectDBMSWF\\FNhanvien.cs",
-              "RelativeToolTip": "ProjectDBMSWF\\FNhanvien.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAwwD4AAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T13:20:16.239Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "FQuanly.cs",
-              "DocumentMoniker": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\ProjectDBMSWF\\FQuanly.cs",
+              "DocumentMoniker": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\FQuanly.cs",
               "RelativeDocumentMoniker": "ProjectDBMSWF\\FQuanly.cs",
-              "ToolTip": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\ProjectDBMSWF\\FQuanly.cs",
+              "ToolTip": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\FQuanly.cs",
               "RelativeToolTip": "ProjectDBMSWF\\FQuanly.cs",
               "ViewState": "AQIAAB8AAAAAAAAAAAAwwDgAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-03T13:20:16.241Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "FChamCong.cs [Design]",
-              "DocumentMoniker": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBSM\\ProjectDBMSWF\\FChamCong.cs",
+              "DocumentMoniker": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\FChamCong.cs",
               "RelativeDocumentMoniker": "ProjectDBMSWF\\FChamCong.cs",
-              "ToolTip": "C:\\Users\\nmtu\\OneDrive\\DBMS\\CODE\\ProjectDBMS\\ProjectDBMSWF\\FChamCong.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "ToolTip": "D:\\HCMUTE\\UTE3\\HOCKY1\\DBMS\\ProjectFolder\\ProjectDBMS\\ProjectDBMSWF\\FChamCong.cs [Design]",
+              "RelativeToolTip": "ProjectDBMSWF\\FChamCong.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-03T13:20:16.243Z"
             }
           ]

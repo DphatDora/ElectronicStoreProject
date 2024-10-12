@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
@@ -12,12 +13,64 @@ namespace ProjectDBMSWF
 {
     public partial class FNhanvien : Form
     {
-
+        public static ObservableCollection<OrderItem> listOrder = new ObservableCollection<OrderItem>();
+        public static BindingList<OrderItem> bindingList = new BindingList<OrderItem>(listOrder.ToList());
+        public static string maNV;
+        public static void AddOrderItem(OrderItem item)
+        {
+            var existingItem = listOrder.FirstOrDefault(i => i.MaLK == item.MaLK);
+            if (existingItem == null)
+            {
+                listOrder.Add(item);
+            }
+            else
+            {
+                existingItem.Soluong = item.Soluong;
+                existingItem.TongTien = existingItem.DonGia * existingItem.Soluong;
+            }
+        }
+        public static void RemoveOrderItem(string maLK)
+        {
+            var itemToRemove = listOrder.FirstOrDefault(item => item.MaLK == maLK);
+            if (itemToRemove != null)
+            {
+                listOrder.Remove(itemToRemove);
+            }
+        }
         public FNhanvien()
         {
             InitializeComponent();
+
+            FNhanvien.listOrder.CollectionChanged += (s, e) =>
+            {
+                if (e.Action == System.Collections.Specialized.NotifyCollectionChangedAction.Add)
+                {
+                    foreach (OrderItem item in e.NewItems)
+                    {
+                        FNhanvien.bindingList.Add(item);
+                    }
+                }
+                else if (e.Action == System.Collections.Specialized.NotifyCollectionChangedAction.Remove)
+                {
+                    foreach (OrderItem item in e.OldItems)
+                    {
+                        FNhanvien.bindingList.Remove(item);
+                    }
+                }
+                else if (e.Action == System.Collections.Specialized.NotifyCollectionChangedAction.Replace)
+                {
+                    foreach (OrderItem item in e.OldItems)
+                    {
+                        FNhanvien.bindingList.Remove(item);
+                        FNhanvien.bindingList.Add(item);
+                    }
+                }
+            };
+
+
         }
         private Form currentFormChild;
+
         public void OpenForm(Form form)
         {
             if (currentFormChild != null)
