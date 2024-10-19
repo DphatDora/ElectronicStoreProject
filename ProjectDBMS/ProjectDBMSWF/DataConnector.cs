@@ -6,7 +6,7 @@ namespace ProjectDBMSWF
 {
     public class DataConnector
     {
-        public static string connectionString = "Data Source=(localdb)\\mssqllocaldb;Initial Catalog=DatabaseProject;Integrated Security=True";
+        public static string connectionString = "Data Source=(localdb)\\mssqllocaldb;Initial Catalog=CuaHangLinhKienMayTinh;Integrated Security=True";
 
         public void connectToDB(string query)
         {

@@ -412,3 +412,112 @@ RETURN(
     WHERE HoaDon.MaNV = @MaNV AND TongGiaTri >= @GiaTriMin AND TongGiaTri <= @GiaTriMax
 );
 GO
+
+-- Thêm cột trạng thái vào bảng phân ca để xác định đã chấm công hay chưa
+ALTER TABLE PhanCa
+ADD TrangThai BIT;
+
+
+-- Thủ tục lấy danh sách ca làm việc đã làm  của nhân viên 
+CREATE PROCEDURE sp_GetCaLamViecByNhanVien
+    @MaNV NVARCHAR(30)
+AS
+BEGIN
+    SELECT 
+        CL.MaCa, 
+        CL.TenCa, 
+        CL.Ngay, 
+        CL.ThoiGianBD, 
+        CL.ThoiGianKT
+    FROM 
+        PhanCa PC
+        JOIN CaLamViec CL ON PC.MaCa = CL.MaCa
+    WHERE 
+        PC.MaNhanVien = @MaNV and
+		pc.trangthai=1;
+END;
+GO
+-- Hamf lấy doanh thu theo ca 
+CREATE FUNCTION fn_GetDoanhThuByMaCaVaNhanVien (
+    @MaCa NVARCHAR(30),
+    @MaNhanVien NVARCHAR(30)
+)
+RETURNS TABLE
+AS
+RETURN
+(
+    SELECT 
+        PC.MaCa, 
+        CL.Ngay, 
+        ISNULL(COUNT(DISTINCT HD.MaHD), 0) AS SoLuongDonHang, 
+        ISNULL(SUM(CTHD.SoLuong), 0) AS SoLuongLinhKien, 
+        ISNULL(SUM(HD.TongGiaTri), 0) AS TongDoanhThu
+    FROM PhanCa PC
+    JOIN CaLamViec CL ON PC.MaCa = CL.MaCa
+    LEFT JOIN HoaDon HD ON HD.MaNV = PC.MaNhanVien AND HD.NgayXuat = CL.Ngay
+    LEFT JOIN ChiTietHD CTHD ON CTHD.MaHD = HD.MaHD
+    WHERE PC.MaCa = @MaCa AND PC.MaNhanVien = @MaNhanVien
+    GROUP BY PC.MaCa, CL.Ngay
+);
+GO
+--hàm thực hiện xem doanh thu của nhân viên theo ca trong khoảng thời gian 
+Create   FUNCTION fn_GetDoanhThuTheoNgay (
+    @MaNhanVien NVARCHAR(30),
+    @NgayBatDau DATE,
+    @NgayKetThuc DATE
+)
+RETURNS TABLE
+AS
+RETURN
+(
+    SELECT 
+        PC.MaCa, 
+        CL.Ngay, 
+        COUNT(DISTINCT HD.MaHD) AS SoLuongDonHang, 
+        ISNULL(SUM(CTHD.SoLuong), 0) AS SoLuongLinhKien, 
+        ISNULL(SUM(HD.TongGiaTri), 0) AS TongDoanhThu
+    FROM PhanCa PC
+    JOIN CaLamViec CL ON PC.MaCa = CL.MaCa
+    LEFT JOIN HoaDon HD ON HD.MaNV = PC.MaNhanVien AND HD.NgayXuat = CL.Ngay
+    LEFT JOIN ChiTietHD CTHD ON CTHD.MaHD = HD.MaHD
+    WHERE  
+       PC.MaNhanVien = @MaNhanVien
+      AND CL.Ngay BETWEEN @NgayBatDau AND @NgayKetThuc
+    GROUP BY PC.MaCa, CL.Ngay
+);
+GO
+-- thủ tục lấy ca làm việc được phân gần nhất để thực hiện chấm công 
+Create  PROCEDURE sp_GetCaLamViec
+    @MaNV NVARCHAR(30)
+AS
+BEGIN
+    SELECT TOP 1 -- Chỉ lấy 1 phân ca gần nhất
+        CL.MaCa, 
+        CL.TenCa, 
+        CL.Ngay, 
+        CL.ThoiGianBD, 
+        CL.ThoiGianKT
+    FROM 
+        PhanCa PC
+        JOIN CaLamViec CL ON PC.MaCa = CL.MaCa
+    WHERE 
+        PC.MaNhanVien = @MaNV
+        AND PC.TrangThai = 0 -- Chỉ lấy các phân ca chưa chấm công
+        AND CL.Ngay >= CAST(GETDATE() AS DATE) -- Chỉ lấy các phân ca trong ngày hiện tại trở đi
+    ORDER BY 
+        DATEDIFF(MINUTE, GETDATE(), CAST(CONCAT(CL.Ngay, ' ', CL.ThoiGianBD) AS DATETIME)) ASC; -- Sắp xếp theo độ gần gũi với thời gian hiện tại
+END;
+GO
+-- thủ tục thực hiện chấm công 
+CREATE PROCEDURE sp_ChamCong
+    @MaNV NVARCHAR(30),
+    @MaCa NVARCHAR(30)
+AS
+BEGIN
+    UPDATE PhanCa
+    SET TrangThai = 1 -- 1 có thể đại diện cho "Đã Chấm Công"
+    WHERE MaNhanVien = @MaNV AND MaCa = @MaCa;
+END;
+GO
+
+

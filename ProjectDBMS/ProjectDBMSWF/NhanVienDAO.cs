@@ -104,7 +104,7 @@ namespace ProjectDBMSWF
                 SqlCommand command = new SqlCommand(query, connection);
                 command.ExecuteNonQuery();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.ToString());
             }
@@ -133,7 +133,7 @@ namespace ProjectDBMSWF
                 connection.Close();
             }
         }
-        
+
         //load danh sách hóa đơn 
         public static DataTable getDanhSachHD(string maNV)
         {
@@ -158,6 +158,117 @@ namespace ProjectDBMSWF
         {
             string query = String.Format("Select * From fn_timTheoNgayXuat('{0}', '{1}')", date, maNV);
             return ExecuteQuery(query);
+        }
+        public static DataTable loadDanhSachCaLam(string maNV)
+        {
+            DataTable data = new DataTable();
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(DataConnector.connectionString))
+                {
+                    SqlCommand cmd = new SqlCommand("sp_GetCaLamViecByNhanVien", conn);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@MaNV", maNV);
+
+                    SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+               
+                    adapter.Fill(data);
+                    
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            return data;
+        }
+        public static DataTable getDoanhThuTheoCa(string maCa, string maNV)
+        {
+            DataTable data = new DataTable();
+            string query = @"
+        SELECT 
+            MaCa, Ngay, SoLuongLinhKien, SoLuongDonHang, TongDoanhThu
+        FROM dbo.fn_GetDoanhThuByMaCaVaNhanVien(@MaCa, @MaNhanVien)";
+
+            using (SqlConnection conn = new SqlConnection(DataConnector.connectionString))
+            {
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@MaCa", maCa);
+                cmd.Parameters.AddWithValue("@MaNhanVien", maNV);
+
+                SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+            
+                adapter.Fill(data);
+               
+            }
+            return data;
+        }
+        public static DataTable getDoanhThuTheoCa(string maNV, DateTime ngayBatDau, DateTime ngayKetThuc)
+        {
+            DataTable dataTable = new DataTable();
+            using (SqlConnection connection = new SqlConnection(DataConnector.connectionString))
+            {
+                string query = "SELECT * FROM fn_GetDoanhThuTheoNgay(@MaNhanVien, @NgayBatDau, @NgayKetThuc)";
+
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+
+                    command.Parameters.AddWithValue("@MaNhanVien", maNV);
+                    command.Parameters.AddWithValue("@NgayBatDau", ngayBatDau);
+                    command.Parameters.AddWithValue("@NgayKetThuc", ngayKetThuc);
+
+                    SqlDataAdapter adapter = new SqlDataAdapter(command);
+                    adapter.Fill(dataTable);
+                }
+            }
+
+            return dataTable;
+        }
+        public static DataTable getChiTietHD(string maHD)
+        {
+            string query = String.Format("Select * From ChiTietHD Where MaHD = '{0}'", maHD);
+            return ExecuteQuery(query);
+        }
+        public static DataTable GetCaLamViec(string maNV)
+        {
+            DataTable data = new DataTable();
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(DataConnector.connectionString))
+                {
+                    SqlCommand cmd = new SqlCommand("sp_GetCaLamViec", conn);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@MaNV", maNV);
+                    SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+                    adapter.Fill(data);
+
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            return data;
+        }
+        public static void chamCong(string maNV, string MaCa)
+        {
+            using (SqlConnection conn=new SqlConnection(DataConnector.connectionString))
+            {
+                SqlCommand cmd = new SqlCommand("sp_ChamCong", conn);
+                cmd.CommandType=CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@MaNV", maNV);
+                cmd.Parameters.AddWithValue("@MaCa", MaCa);
+                try
+                {
+                    conn.Open();
+                    cmd.ExecuteNonQuery(); // Thực thi stored procedure
+                    MessageBox.Show("Chấm công thành công!");
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Có lỗi xảy ra: " + ex.Message);
+                }
+            }
         }
     }
 }

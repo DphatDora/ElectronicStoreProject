@@ -129,6 +129,12 @@
     <Compile Include="OrderItem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UCChamCong.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCChamCong.Designer.cs">
+      <DependentUpon>UCChamCong.cs</DependentUpon>
+    </Compile>
     <Compile Include="UClinhkien.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -181,6 +187,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="UCChamCong.resx">
+      <DependentUpon>UCChamCong.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UClinhkien.resx">
       <DependentUpon>UClinhkien.cs</DependentUpon>
     </EmbeddedResource>

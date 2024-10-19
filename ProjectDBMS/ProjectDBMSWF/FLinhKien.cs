@@ -80,12 +80,13 @@ namespace ProjectDBMSWF
         private void btn_addToOrder_Click(object sender, EventArgs e)
         {
             // thêm vào đơn hàng 1 sản phẩm
-            //OrderItem order = new OrderItem(lbl_maLK.Text, lbl_tenLK.Text, 1, float.Parse(lbl_giaTien.Text), productImage.Image);
-            //FNhanvien.AddOrderItem(order);
+            OrderItem order = new OrderItem(lbl_maLK.Text, lbl_tenLK.Text, 1, float.Parse(lbl_giaTien.Text), productImage.Image);
+            FNhanvien.AddOrderItem(order);
+            /*
             try
             {
-                OrderItem order1 = new OrderItem("LK001", "Bánh Pizza", 2, 14000, Image.FromFile("C:\\Users\\hdpha\\Videos\\Captures\\Genshin Impact 10_10_2024 11_44_47 PM.png"));
-                OrderItem order2 = new OrderItem("LK002", "Bánh Kem", 4, 32000, Image.FromFile("C:\\Users\\hdpha\\Videos\\Captures\\Genshin Impact 10_10_2024 11_44_47 PM.png"));
+                OrderItem order1 = new OrderItem("LK001", "Bánh Pizza", 2, 14000, Image.FromFile("C:\\Users\\PC\\OneDrive\\Tài liệu\\Hình ảnh\\arrow.png"));
+                OrderItem order2 = new OrderItem("LK002", "Bánh Kem", 4, 32000, Image.FromFile("C:\\Users\\PC\\OneDrive\\Tài liệu\\Hình ảnh\\arrow.png"));
                 FNhanvien.AddOrderItem(order1);
                 FNhanvien.AddOrderItem(order2);
                 MessageBox.Show("Thêm thành công");
@@ -94,6 +95,7 @@ namespace ProjectDBMSWF
             {
 
             MessageBox.Show(ex.Message); }
+            */
         }
     }
 }
