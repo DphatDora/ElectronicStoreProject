@@ -32,7 +32,13 @@ namespace ProjectDBMSWF
         private void loadListOrder()
         {
             orderGridView.DataSource = FNhanvien.bindingList;
-           
+            lbl_maLK.DataBindings.Clear();
+            lbl_productName.DataBindings.Clear();
+            txb_soLuong.DataBindings.Clear();
+            lbl_giaTien.DataBindings.Clear();
+            lbl_tongTien.DataBindings.Clear();
+            imageProduct.DataBindings.Clear();
+
             lbl_maLK.DataBindings.Add("Text", orderGridView.DataSource, "MaLK");
             lbl_productName.DataBindings.Add("Text", orderGridView.DataSource, "TenLk");
             txb_soLuong.DataBindings.Add("Text", orderGridView.DataSource, "SoLuong");

@@ -26,15 +26,24 @@ namespace ProjectDBMSWF
         private void txb_tenKH_TextChanged(object sender, EventArgs e)
         {
             string tenKH = txb_tenKH.Text;
-            danhSachHD_gridView.DataSource = NhanVienDAO.getDanhSachHD(FNhanvien.maNV);
+            danhSachHD_gridView.DataSource = NhanVienDAO.getDanhSachHDByName(FNhanvien.maNV, tenKH);
         }
 
         private void cbtn_timTheoGia_CheckedChanged(object sender, EventArgs e)
         {
+            float giaTriMin = 0;
+            float giaTriMax = 999999999;
+            if (!string.IsNullOrEmpty(txb_minValue.Text))
+            {
+                giaTriMin = float.Parse(txb_minValue.Text);
+            }
+            if (!string.IsNullOrEmpty(txb_maxValue.Text))
+            {
+                giaTriMax = float.Parse(txb_maxValue.Text);
+            }
+
             if (cbtn_timTheoGia.Checked)
             {
-                float giaTriMin = float.Parse(txb_minValue.Text);
-                float giaTriMax = float.Parse(txb_maxValue.Text);
                 danhSachHD_gridView.DataSource = NhanVienDAO.getDanhSachHDByValue(giaTriMin, giaTriMax, FNhanvien.maNV);
             }
             else
