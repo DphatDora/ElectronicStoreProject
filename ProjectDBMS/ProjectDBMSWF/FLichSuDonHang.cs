@@ -55,5 +55,12 @@ namespace ProjectDBMSWF
                 danhSachHD_gridView.DataSource = NhanVienDAO.getDanhSachHD(FNhanvien.maNV);
             }
         }
+
+        private void danhSachHD_gridView_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            string maHD = danhSachHD_gridView.Rows[e.RowIndex].Cells["MaHD"].Value.ToString();
+
+            chiTietHD_gridView.DataSource = NhanVienDAO.getChiTietHD(maHD);
+        }
     }
 }

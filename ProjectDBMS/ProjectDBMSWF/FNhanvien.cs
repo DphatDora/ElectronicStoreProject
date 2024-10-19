@@ -15,7 +15,7 @@ namespace ProjectDBMSWF
     {
         public static ObservableCollection<OrderItem> listOrder = new ObservableCollection<OrderItem>();
         public static BindingList<OrderItem> bindingList = new BindingList<OrderItem>(listOrder.ToList());
-        public static string maNV;
+        public static string maNV= "NV01";
         public static void AddOrderItem(OrderItem item)
         {
             var existingItem = listOrder.FirstOrDefault(i => i.MaLK == item.MaLK);
