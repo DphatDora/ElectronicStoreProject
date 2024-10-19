@@ -12,28 +12,34 @@ namespace ProjectDBMSWF
 {
     public partial class FChamCong : Form
     {
-        public FChamCong()
+        private FNhanvien formNhanVien;
+        public FChamCong(FNhanvien formNhanVien)
         {
             InitializeComponent();
+            this.formNhanVien = formNhanVien;
         }
 
         private void FChamCong_Load(object sender, EventArgs e)
         {
             DataTable dt = NhanVienDAO.GetCaLamViec(FNhanvien.maNV);
-            if (dt.Rows.Count>0)
+            if (dt.Rows.Count > 0)
             {
+                
                 UCChamCong uc = new UCChamCong();
-                uc.LoadCaLamViec(dt,FNhanvien.maNV);
-              
+                uc.LoadCaLamViec(dt, FNhanvien.maNV);
+                uc.ChamCongCompleted += OnChamCongCompleted;
+                this.Controls.Add(uc);                
             }
             else
             {
-                lb_ChamCong.Text = "Bạn đã châm công cho phân ca rồi";
+                lb_ChamCong.Text = "Bạn đã chấm công cho phân ca rồi";
                 lb_ChamCong.Visible = true;
             }
-            FNhanvien.lb_ngayLamViec.Text= Convert.ToDateTime(dt.Rows[0]["Ngay"]).ToString("dd-MM-yyyy");
-            FNhanvien.lb_ngayLamViec.Visible = true;
 
+        }
+        private void OnChamCongCompleted(object sender, string ngayLamViec)
+        {
+            formNhanVien.SetNgayLamViec(ngayLamViec); // Cập nhật ngày làm việc về Form Nhân viên
         }
     }
 }

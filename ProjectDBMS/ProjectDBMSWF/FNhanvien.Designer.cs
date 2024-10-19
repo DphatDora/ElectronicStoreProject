@@ -45,7 +45,7 @@
             this.ptb_avatar = new Guna.UI2.WinForms.Guna2PictureBox();
             this.btnClose = new Guna.UI2.WinForms.Guna2ImageButton();
             this.label1 = new System.Windows.Forms.Label();
-            FNhanvien.lb_ngayLamViec = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.panelMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptb_avatar)).BeginInit();
             this.SuspendLayout();
@@ -131,7 +131,7 @@
             this.btnChamcong.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnChamcong.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnChamcong.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(201)))), ((int)(((byte)(234)))));
-            this.btnChamcong.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.btnChamcong.Font = new System.Drawing.Font("UTM Alberta Heavy", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChamcong.ForeColor = System.Drawing.Color.Black;
             this.btnChamcong.Image = global::ProjectDBMSWF.Properties.Resources.calendar;
             this.btnChamcong.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -160,7 +160,7 @@
             this.btnDoanhthu.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnDoanhthu.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnDoanhthu.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(201)))), ((int)(((byte)(234)))));
-            this.btnDoanhthu.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.btnDoanhthu.Font = new System.Drawing.Font("UTM Alberta Heavy", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDoanhthu.ForeColor = System.Drawing.Color.Black;
             this.btnDoanhthu.Location = new System.Drawing.Point(19, 599);
             this.btnDoanhthu.Margin = new System.Windows.Forms.Padding(4);
@@ -187,7 +187,7 @@
             this.btnXuly.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnXuly.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnXuly.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(201)))), ((int)(((byte)(234)))));
-            this.btnXuly.Font = new System.Drawing.Font("UTM Alberta Heavy", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXuly.Font = new System.Drawing.Font("UTM Alberta Heavy", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXuly.ForeColor = System.Drawing.Color.Black;
             this.btnXuly.Location = new System.Drawing.Point(19, 273);
             this.btnXuly.Margin = new System.Windows.Forms.Padding(4);
@@ -214,7 +214,7 @@
             this.btnLichsu.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnLichsu.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnLichsu.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(201)))), ((int)(((byte)(234)))));
-            this.btnLichsu.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.btnLichsu.Font = new System.Drawing.Font("UTM Alberta Heavy", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLichsu.ForeColor = System.Drawing.Color.Black;
             this.btnLichsu.Location = new System.Drawing.Point(19, 385);
             this.btnLichsu.Margin = new System.Windows.Forms.Padding(4);
@@ -242,7 +242,7 @@
             this.btnLinhkien.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnLinhkien.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnLinhkien.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(201)))), ((int)(((byte)(234)))));
-            this.btnLinhkien.Font = new System.Drawing.Font("UTM Alberta Heavy", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLinhkien.Font = new System.Drawing.Font("UTM Alberta Heavy", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLinhkien.ForeColor = System.Drawing.Color.Black;
             this.btnLinhkien.Location = new System.Drawing.Point(19, 166);
             this.btnLinhkien.Margin = new System.Windows.Forms.Padding(4);
@@ -322,21 +322,22 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("UTM Alberta Heavy", 12F);
             this.label1.Location = new System.Drawing.Point(332, 33);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(80, 16);
+            this.label1.Size = new System.Drawing.Size(119, 26);
             this.label1.TabIndex = 16;
             this.label1.Text = "Ca làm việc:";
             // 
-            // lb_ngayLamViec
+            // label2
             // 
-            FNhanvien.lb_ngayLamViec.AutoSize = true;
-            FNhanvien.lb_ngayLamViec.Location = new System.Drawing.Point(439, 33);
-            FNhanvien.lb_ngayLamViec.Name = "lb_ngayLamViec";
-            FNhanvien.lb_ngayLamViec.Size = new System.Drawing.Size(44, 16);
-            FNhanvien.lb_ngayLamViec.TabIndex = 17;
-            FNhanvien.lb_ngayLamViec.Text = "label2";
-            FNhanvien.lb_ngayLamViec.Visible = false;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(471, 39);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(44, 16);
+            this.label2.TabIndex = 17;
+            this.label2.Text = "label2";
+            this.label2.Visible = false;
             // 
             // FNhanvien
             // 
@@ -344,7 +345,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(244)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(1821, 985);
-            this.Controls.Add(FNhanvien.lb_ngayLamViec);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.PanelContain);
             this.Controls.Add(this.panelMenu);
@@ -354,6 +355,7 @@
             this.Name = "FNhanvien";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FNhanvien";
+            this.Load += new System.EventHandler(this.FNhanvien_Load);
             this.panelMenu.ResumeLayout(false);
             this.panelMenu.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptb_avatar)).EndInit();
@@ -380,6 +382,6 @@
         private Guna.UI2.WinForms.Guna2ImageButton btnClose;
         private Guna.UI2.WinForms.Guna2Button btnXuly;
         private System.Windows.Forms.Label label1;
-        public static System.Windows.Forms.Label lb_ngayLamViec;
+        private System.Windows.Forms.Label label2;
     }
 }

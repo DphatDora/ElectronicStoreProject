@@ -241,7 +241,6 @@ namespace ProjectDBMSWF
                     cmd.Parameters.AddWithValue("@MaNV", maNV);
                     SqlDataAdapter adapter = new SqlDataAdapter(cmd);
                     adapter.Fill(data);
-
                 }
             }
             catch (Exception ex)

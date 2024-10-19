@@ -58,7 +58,7 @@
             this.ClientSize = new System.Drawing.Size(1481, 886);
             this.Controls.Add(this.lb_ChamCong);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FChamCong";
             this.Text = "FChamCong";
             this.Load += new System.EventHandler(this.FChamCong_Load);
