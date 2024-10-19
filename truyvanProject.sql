@@ -503,7 +503,7 @@ BEGIN
     WHERE 
         PC.MaNhanVien = @MaNV
         AND PC.TrangThai = 0 -- Chỉ lấy các phân ca chưa chấm công
-        AND CL.Ngay >= CAST(GETDATE() AS DATE) -- Chỉ lấy các phân ca trong ngày hiện tại trở đi
+        
     ORDER BY 
         DATEDIFF(MINUTE, GETDATE(), CAST(CONCAT(CL.Ngay, ' ', CL.ThoiGianBD) AS DATETIME)) ASC; -- Sắp xếp theo độ gần gũi với thời gian hiện tại
 END;

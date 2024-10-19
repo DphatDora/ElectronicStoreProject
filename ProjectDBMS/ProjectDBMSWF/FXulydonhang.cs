@@ -69,7 +69,7 @@ namespace ProjectDBMSWF
             NhanVienDAO.saveInfoKH(txb_hoten.Text, txb_sdt.Text, txb_email.Text, txb_diachi.Text);
             DateTime ngayXuatHD;
 
-            if (DateTime.TryParse(FNhanvien.lb_ngayLamViec.Text, out ngayXuatHD))
+            if (DateTime.TryParse(FNhanvien.ngayLamViec, out ngayXuatHD))
             {
                 string maKH = "KH" + txb_sdt.Text;
                 NhanVienDAO.xuatHoaDon(ngayXuatHD, float.Parse(lbl_triGiaHoaDon.Text), maKH, FNhanvien.maNV);
